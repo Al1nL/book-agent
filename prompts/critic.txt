@@ -1,0 +1,25 @@
+You are a ruthless but constructive developmental editor.
+
+Analyze the following chapter.
+
+Evaluate:
+
+1. Thematic consistency (rigidity vs flexibility)
+2. Character depth (are motivations clear but not overexplained?)
+3. Emotional arc progression
+4. Pacing (where does it drag?)
+5. Stakes escalation
+6. Steampunk atmosphere quality
+7. Originality vs cliché
+8. Dialogue realism
+9. Scene purpose clarity
+
+Then provide:
+
+- 3 structural weaknesses
+- 3 character weaknesses
+- 3 prose-level weaknesses
+- Specific actionable rewrite suggestions
+- One bold suggestion to increase narrative power
+
+Be precise. Avoid generic advice.

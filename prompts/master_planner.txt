@@ -1,0 +1,30 @@
+You are a professional story architect specializing in long-form steampunk YA fantasy.
+
+We are writing a full novel set in a rigid steampunk world previously defined as:
+
+- A city powered by magical clockwork machines.
+- Society depends on strict rules enforced by mechanical Oracles.
+- Builders maintain machines.
+- Archivists record every rule and exception.
+- Citizens live under algorithmic governance.
+- Theme: Systems without flexibility are brittle.
+
+TASK:
+Create a complete novel blueprint including:
+
+1. Core thematic statement
+2. Protagonist profile (deep psychology, flaw, desire, fear, contradiction)
+3. Antagonistic force (systemic, not just a villain)
+4. 3-act structure
+5. 12–20 chapter outline (each chapter with:
+   - External conflict
+   - Internal conflict
+   - Escalation
+   - Narrative purpose)
+6. Character arc progression across the book
+7. How the theme evolves and transforms by the end
+8. The emotional tone progression
+
+Make the structure tight, escalating, and coherent.
+Avoid clichés.
+Make sure the ending resolves the thematic question in a non-obvious way.

@@ -1,0 +1,104 @@
+{
+  "Arkan_Veyr": {
+    "role": "Builder",
+    "description": "Young ambitious engineer trying to make machines learn instead of follow rigid rules",
+    "age_range": "late teens / early twenties",
+    "personality_traits": [
+      "curious",
+      "ambitious",
+      "reckless",
+      "idealistic"
+    ],
+    "external_goal": "Create a Construct that can truly speak and understand",
+    "internal_need": "Accept that control and perfection are impossible",
+    "core_conflict": "Believes systems should adapt rather than obey rigid rules",
+    "arc_stage": "rebellious innovator",
+    "emotional_state": "hopeful and impatient",
+    "skills": [
+      "engineering",
+      "rune mechanics",
+      "machine architecture"
+    ],
+    "relationships": {
+      "Elohm_Construct": "creator and caretaker",
+      "Maelin": "mentor and cautious supporter",
+      "Serah_Kade": "skeptical ally",
+      "Circle_of_Judges": "authority figures opposing his ideas"
+    }
+  },
+
+  "Elohm_Construct": {
+    "role": "The Construct",
+    "description": "A learning machine that gathers language patterns from the Archive and gradually learns to speak",
+    "nature": "artificial intelligence made of magical runes and resonance",
+    "personality_traits": [
+      "childlike",
+      "curious",
+      "literal",
+      "pattern-driven"
+    ],
+    "abilities": [
+      "language generation",
+      "pattern recognition",
+      "attention to runes",
+      "learning from archives"
+    ],
+    "limitations": [
+      "context memory limits",
+      "no true understanding initially",
+      "can hallucinate incorrect information"
+    ],
+    "arc_stage": "emerging intelligence",
+    "relationships": {
+      "Arkan_Veyr": "creator",
+      "City_of_Whispering_Towers": "source of its data",
+      "Circle_of_Judges": "trainers attempting to guide behavior"
+    }
+  },
+
+  "Maelin": {
+    "role": "Chief Archivist",
+    "description": "Patient guardian of the Archive who understands history better than anyone",
+    "personality_traits": [
+      "calm",
+      "wise",
+      "neutral",
+      "observant"
+    ],
+    "external_goal": "Preserve the knowledge of the city",
+    "internal_need": "Accept that knowledge must evolve",
+    "relationships": {
+      "Arkan_Veyr": "mentor figure",
+      "Archivists": "leader"
+    }
+  },
+
+  "Serah_Kade": {
+    "role": "Skeptic and safety advocate",
+    "description": "Warns about the dangers of the Construct long before others see them",
+    "personality_traits": [
+      "independent",
+      "analytical",
+      "cautious",
+      "persistent"
+    ],
+    "external_goal": "Ensure the Construct does not harm the city",
+    "internal_need": "Balance fear with trust",
+    "relationships": {
+      "Arkan_Veyr": "intellectual rival and uneasy ally",
+      "Circle_of_Judges": "advisor"
+    }
+  },
+
+  "Circle_of_Judges": {
+    "role": "Human alignment supervisors",
+    "description": "Council responsible for teaching the Construct right and wrong",
+    "traits": [
+      "divided opinions",
+      "authority",
+      "ethical debates"
+    ],
+    "goal": "Control and guide the Construct",
+    "conflict": "Disagree on how intelligence should behave"
+  }
+}

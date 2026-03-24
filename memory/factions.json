@@ -1,0 +1,49 @@
+{
+  "world_name": "Aeloria",
+  "primary_city": "City of Whispering Towers",
+  "technology_style": "steampunk magic",
+  "core_theme": "Systems without flexibility eventually break",
+
+  "major_locations": {
+    "Whispering_Towers": {
+      "description": "Massive towers storing the Archive of runes and knowledge",
+      "features": [
+        "floating lanterns",
+        "bridges of glass and silver rope",
+        "memory runes glowing in walls"
+      ]
+    },
+
+    "The_Archive": {
+      "description": "A labyrinth of runes storing every story, letter, and conversation in the city",
+      "purpose": "Source of language for the Construct",
+      "mechanics": "Each rune represents a fragment of language"
+    },
+
+    "Wildlands": {
+      "description": "Untamed lands outside the city representing chaotic uncurated data",
+      "creatures": [
+        "shadow wolves that memorize sounds",
+        "serpents that twist words",
+        "birds that mimic conversations"
+      ]
+    },
+
+    "Circle_of_Rivers": {
+      "description": "Waterways surrounding the city that metaphorically store memories"
+    },
+
+    "Old_Hills": {
+      "description": "Ruins from the Rulebound Age where rigid rule systems once failed"
+    }
+  },
+
+  "magic_system": {
+    "language_is_magic": true,
+    "runes": "Fragments of language that store meaning",
+    "resonance": "Connections between runes representing relationships between ideas",
+    "attention_spells": "Focus mechanisms that select relevant runes",
+    "memory_circles": "Limits on how much information the Construct can remember at once",
+    "amplification": "Increasing runes and towers makes the Construct more powerful"
+  }
+}

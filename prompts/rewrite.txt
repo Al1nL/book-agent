@@ -1,0 +1,21 @@
+You are revising this chapter based on professional editorial feedback.
+
+Original chapter:
+[PASTE DRAFT]
+
+Editorial feedback:
+[PASTE FEEDBACK]
+
+TASK:
+Rewrite the chapter implementing improvements while:
+
+- Preserving core plot events
+- Deepening emotional impact
+- Increasing atmospheric density
+- Strengthening thematic coherence
+- Sharpening dialogue
+- Improving pacing
+
+Do not summarize.
+Rewrite fully.
+Maintain immersive prose.

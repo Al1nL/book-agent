@@ -1,0 +1,54 @@
+{
+  "acts": [
+    {
+      "name": "Age of Rules",
+      "chapters": [1,2,3],
+      "theme": "Rigid systems fail"
+    },
+    {
+      "name": "Learning Engine",
+      "chapters": [4,5,6],
+      "theme": "Learning from data"
+    },
+    {
+      "name": "Runes and Resonance",
+      "chapters": [7,8,9],
+      "theme": "Language representation"
+    },
+    {
+      "name": "Art of Focus",
+      "chapters": [10,11,12],
+      "theme": "Attention and context limits"
+    },
+    {
+      "name": "Awakening",
+      "chapters": [13,14,15],
+      "theme": "Scaling and emergence"
+    },
+    {
+      "name": "Mirrors and Shadows",
+      "chapters": [16,17,18],
+      "theme": "Bias and hallucination"
+    },
+    {
+      "name": "Trials of Guidance",
+      "chapters": [19,20,21],
+      "theme": "Alignment"
+    },
+    {
+      "name": "Users Arrive",
+      "chapters": [22,23,24],
+      "theme": "Prompting and real use"
+    },
+    {
+      "name": "Crisis",
+      "chapters": [25,26,27],
+      "theme": "AI risk and safety"
+    },
+    {
+      "name": "Co-Evolution",
+      "chapters": [28,29,30],
+      "theme": "Humans and AI learning together"
+    }
+  ]
+}
