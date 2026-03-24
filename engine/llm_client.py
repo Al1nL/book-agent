@@ -1,6 +1,8 @@
 import requests
 from config import MODEL, OLLAMA_URL
 import json
+
+
 def ask_llm(prompt):
 
     response = requests.post(
@@ -8,18 +10,27 @@ def ask_llm(prompt):
         json={
             "model": MODEL,
             "prompt": prompt,
-            "temperature": 0.9,
-            "top_p": 0.95,
-            "repeat_penalty": 1.15
+            "stream": True,
+            "options": {
+                "temperature": 0.9,
+                "top_p": 0.95,
+                "repeat_penalty": 1.15
+            }
         }
     )
 
     text = ""
 
     for line in response.iter_lines():
-
         if line:
             data = json.loads(line.decode())
+
+            if "error" in data:
+                raise RuntimeError(f"Ollama error: {data['error']}")
+
             text += data.get("response", "")
+
+    if not text.strip():
+        raise RuntimeError(f"Ollama returned empty response for model '{MODEL}'. Is the model downloaded? Run: ollama pull {MODEL}")
 
     return text

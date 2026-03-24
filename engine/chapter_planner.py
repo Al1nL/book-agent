@@ -1,5 +1,5 @@
 from engine.llm_client import ask_llm
-from engine.memory_manager import load_memory
+from engine.memory_manager import load_memory, load_prompt
 
 
 def plan_chapter():
@@ -9,31 +9,7 @@ def plan_chapter():
     plot = load_memory("plot_structure.json")
     state = load_memory("chapter_state.json")
 
-    prompt = f"""
-You are a professional fantasy novelist.
-
-WORLD:
-{world}
-
-CHARACTERS:
-{characters}
-
-PLOT STRUCTURE:
-{plot}
-
-CURRENT STORY STATE:
-{state}
-
-Design the next chapter.
-
-Return:
-
-1. chapter title
-2. chapter purpose
-3. main conflict
-4. emotional shift
-5. cliffhanger
-6. 4-6 scene breakdown
-"""
+    template = load_prompt("chapter_planner.txt")
+    prompt = template.format(world=world, characters=characters, plot=plot, state=state)
 
     return ask_llm(prompt)

@@ -1,20 +1,10 @@
 from engine.llm_client import ask_llm
+from engine.memory_manager import load_prompt
+
 
 def enhance_tension(scene_plan):
 
-    prompt = f"""
-Improve this scene plan to increase suspense.
-
-Scene plan:
-{scene_plan}
-
-Add:
-- more uncertainty
-- hidden information
-- conflicting character goals
-- subtle danger signals
-
-Return improved version.
-"""
+    template = load_prompt("tension_engine.txt")
+    prompt = template.format(scene_plan=scene_plan)
 
     return ask_llm(prompt)

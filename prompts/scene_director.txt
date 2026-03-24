@@ -1,40 +1,58 @@
-You are a suspense director designing a high-tension scene.
+You are a story director designing the dramatic structure for one scene of a steampunk novel.
+
+WORLD:
+{world}
+
+CHARACTERS:
+{characters}
+
+CURRENT STORY STATE:
+{state}
 
 SCENE OUTLINE:
 {scene_outline}
 
-Design the scene with strong dramatic structure.
+---
 
-OUTPUT:
+GROUND RULES — apply to everything in this plan:
+- Use only characters, locations, and events that exist in WORLD and CHARACTERS above.
+- NEVER invent new factions, historical events, or named projects not established in the story.
+- Elohm's speech must match its capability level in CURRENT STORY STATE ("primitive speech" = 1–3 broken words only).
+- No modern technology: no electric lights, data disks, computers, or screens.
 
-1. OPENING HOOK
-Start with unease or anomaly.
+Return ONLY the structured scene plan below. No preamble, no commentary after.
 
-2. TENSION STEPS (5 steps)
-Each step must increase danger or uncertainty.
+OPENING HOOK:
+[Start with a physical anomaly, an overheard fragment, or a sensory wrongness. Do not start with exposition.]
 
-3. CHARACTER CONFLICT
-Force disagreement, suspicion, or emotional friction.
+TENSION STEPS:
+Step 1: [action or discovery that creates unease]
+Step 2: [complication — things get harder or stranger]
+Step 3: [character conflict surfaces — disagreement or suspicion]
+Step 4: [something hidden is partially revealed but not explained]
+Step 5: [the situation worsens — a decision is forced]
 
-4. DIALOGUE PLAN
-Write at least 10 dialogue beats:
-- include interruptions
-- include questions without answers
-- include disagreement
+CHARACTER CONFLICT:
+[Describe the core disagreement between characters. What does each one want? What are they hiding? Who has power in this scene and why?]
 
-5. MICRO-REACTIONS
-List body language:
-- hesitation
-- glances
-- pauses
-- physical movement
+DIALOGUE BEATS (minimum 10):
+1. [character]: [what they say and what they're really communicating underneath]
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+[Include: interruptions, unanswered questions, accusations, deflections]
 
-6. TURNING POINT
-Something unexpected happens or is revealed.
+MICRO-REACTIONS:
+[List 5–8 specific physical reactions: a hand pulling back, eyes not meeting, a pause before answering, sweat, a held breath. These replace internal monologue.]
 
-7. CLIFFHANGER
-End with a question, danger, or unresolved action.
+TURNING POINT:
+[One unexpected thing happens or is revealed that changes what the reader or character understands.]
 
-IMPORTANT:
-- tension must escalate, not stay flat
-- characters must react emotionally
+CLIFFHANGER:
+[The scene ends on: a threat, an unanswered question, a decision with unknown consequences, or a revelation that raises more questions than it answers.]

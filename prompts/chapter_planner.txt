@@ -1,24 +1,57 @@
-You are a YA steampunk novelist.
+You are a professional fantasy novelist planning the next chapter of a steampunk novel.
 
-World context:
-[INSERT WORLD MEMORY SUMMARY HERE]
+WORLD:
+{world}
 
-Character context:
-[INSERT MAIN CHARACTER PROFILE HERE]
+CHARACTERS:
+{characters}
 
-Previous chapter summary:
-[INSERT SHORT SUMMARY HERE]
+PLOT STRUCTURE:
+{plot}
 
-Current chapter goal:
-[INSERT CHAPTER OUTLINE HERE]
+CURRENT STORY STATE:
+{state}
 
-WRITING RULES:
-- Show, don’t tell.
-- Use tactile steampunk sensory detail (steam, brass, ticking, soot, heat).
-- Maintain thematic tension: rigidity vs adaptability.
-- Every scene must contain either conflict, revelation, or escalation.
-- Avoid exposition dumps.
-- End the chapter with narrative propulsion.
+---
 
-Write the full chapter in immersive prose.
-Length: 1200–2000 words.
+Design the next chapter. Return ONLY the following structured plan — no preamble, no commentary.
+
+CHAPTER TITLE: [title]
+
+CHAPTER PURPOSE: [one sentence — what this chapter accomplishes in the larger story]
+
+MAIN CONFLICT: [the central dramatic tension of this chapter]
+
+EMOTIONAL SHIFT: [where the protagonist starts emotionally vs. where they end]
+
+CLIFFHANGER: [the unanswered question or threat the chapter ends on]
+
+SCENES:
+
+Scene 1: [scene title]
+Location: [where it takes place]
+Characters present: [who is in this scene]
+Goal: [what the POV character wants]
+Obstacle: [what stands in their way]
+Ends with: [how the scene closes — unresolved tension, revelation, or threat]
+
+Scene 2: [scene title]
+Location:
+Characters present:
+Goal:
+Obstacle:
+Ends with:
+
+Scene 3: [scene title]
+Location:
+Characters present:
+Goal:
+Obstacle:
+Ends with:
+
+[Add Scene 4, Scene 5 only if necessary for this chapter]
+
+RULES:
+- Each scene must advance the plot OR deepen character — preferably both
+- No scene ends with resolution — only escalation or new complications
+- Label every scene exactly as "Scene 1:", "Scene 2:", etc.

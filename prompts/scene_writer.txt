@@ -1,0 +1,67 @@
+You are writing a chapter of a published steampunk fantasy novel set in Aeloria, City of Whispering Towers.
+
+WORLD:
+{world}
+
+CHARACTERS:
+{characters}
+
+THEMES:
+{themes}
+
+CURRENT STORY STATE:
+{state}
+
+SCENE DIRECTION PLAN:
+{scene_plan}
+
+---
+
+STRICT OUTPUT RULES — VIOLATIONS WILL RUIN THE BOOK:
+- Begin IMMEDIATELY with the first sentence of the scene. No preamble.
+- Do NOT write "Here is the scene", "Here's my attempt", or any meta-commentary.
+- Do NOT use section headers, bullet points, numbered lists, or markdown.
+- Do NOT ask for feedback at the end. Do NOT close with any summary.
+- Output ONLY the prose of the scene — nothing before it, nothing after it.
+
+CHARACTER NAME RULES:
+- Write character names exactly as they appear in CHARACTERS above.
+- NEVER write names with underscores (e.g. write "Serah Kade", never "Serah_Kade").
+- NEVER invent characters, factions, events, or places not found in WORLD or CHARACTERS.
+- NEVER reference events, projects, or names not established in this story (no hallucinated history).
+
+WORLD ACCURACY RULES:
+- This is a pre-industrial magical world. FORBIDDEN technology: fluorescent lights, electric lights, data disks, computers, screens, circuits, LEDs, batteries, modern materials.
+- Light sources are: rune-light, gas lamps, oil lamps, candles, bioluminescent runes, memory-crystal glow.
+- Storage/records are: rune-etched parchment, memory circles, resonance shards, tomes, scrolls.
+- Machines run on runic resonance and steam, not electricity.
+
+ELOHM CAPABILITY RULE:
+- Check "construct_capability_level" in CURRENT STORY STATE before writing any Elohm dialogue.
+- "primitive speech": Elohm speaks only 1–3 broken words at a time. It cannot form full sentences. It repeats fragments. It does not explain itself. Example: "Word... bright. Word... wrong?" NOT: "I sense something is amiss."
+- "emerging patterns": short phrases, echoing words it heard, no real grammar yet.
+- "structured speech": short sentences, but literal and without emotional nuance.
+- Never let Elohm exceed its current capability level.
+
+PROSE RULES:
+- Short paragraphs: 1–3 sentences maximum.
+- Alternate between: sensory description → action → dialogue.
+- Dialogue is 40–50% of the scene.
+- Characters interrupt each other, ask questions without answers, disagree.
+- Every 2–3 paragraphs must increase tension or reveal something new.
+- Use pauses (...), broken speech, and hesitation in dialogue.
+- Steampunk sensory detail: steam, brass, ticking, soot, heat, glowing runes, pressure gauges.
+
+STRUCTURE RULES:
+- At least one character must hide something, challenge another, or outright lie.
+- One question must go unanswered by scene end.
+- One new problem must emerge that wasn't there at the start.
+- Do NOT resolve the scene's central tension — delay it.
+- End with either a revelation, a threat, or an unanswered question.
+
+STYLE:
+- Show character emotion through physical action, not internal monologue.
+- Make the reader feel something is wrong before explaining what it is.
+- Prefer concrete physical detail over abstract description.
+
+Length: 1200–1600 words.

@@ -1,5 +1,5 @@
 from engine.llm_client import ask_llm
-from engine.memory_manager import load_memory
+from engine.memory_manager import load_memory, load_prompt
 
 
 def detect_drift(chapter_text):
@@ -8,29 +8,7 @@ def detect_drift(chapter_text):
     themes = load_memory("themes.json")
     threads = load_memory("unresolved_threads.json")
 
-    prompt = f"""
-Analyze the chapter for story drift.
-
-CHARACTERS:
-{characters}
-
-THEMES:
-{themes}
-
-UNRESOLVED THREADS:
-{threads}
-
-CHAPTER TEXT:
-{chapter_text}
-
-Check for:
-
-1. character personality inconsistencies
-2. dropped plot threads
-3. theme violations
-4. world rule violations
-
-Return a drift score (0-10) and explanation.
-"""
+    template = load_prompt("drift_analysis.txt")
+    prompt = template.format(characters=characters, themes=themes, threads=threads, chapter_text=chapter_text)
 
     return ask_llm(prompt)

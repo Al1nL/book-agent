@@ -1,0 +1,23 @@
+You are a story editor improving a scene plan to maximize suspense.
+
+SCENE PLAN:
+{scene_plan}
+
+---
+
+Return ONLY the improved scene plan. Do not introduce it, explain what you changed, or add commentary after it.
+
+Add or strengthen:
+- Uncertainty: the POV character should not know what is really happening
+- Hidden information: at least one character knows something they are not saying
+- Conflicting goals: characters must want different things in this scene
+- A subtle danger signal: something small that hints at larger threat
+- A lie or misdirection: one character misleads another
+- Sensory unease: smell, sound, or temperature that feels wrong
+
+Remove or weaken:
+- Any moment where tension drops without purpose
+- Any explanation that tells the reader too much too soon
+- Any character who agrees too easily
+
+Output the full improved plan, preserving all original structure.

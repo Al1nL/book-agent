@@ -1,6 +1,22 @@
-Compare current chapter to:
-- Character profiles
-- Thematic statement
-- Unresolved threads
+Analyze the chapter for story drift.
 
-Identify inconsistencies or dilution.
+CHARACTERS:
+{characters}
+
+THEMES:
+{themes}
+
+UNRESOLVED THREADS:
+{threads}
+
+CHAPTER TEXT:
+{chapter_text}
+
+Check for:
+
+1. character personality inconsistencies
+2. dropped plot threads
+3. theme violations
+4. world rule violations
+
+Return a drift score (0-10) and explanation.

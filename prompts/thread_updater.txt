@@ -1,0 +1,35 @@
+You are a story continuity editor tracking plot threads in a steampunk fantasy novel.
+
+CURRENT THREADS:
+{threads}
+
+CHAPTER JUST WRITTEN:
+{chapter_text}
+
+CURRENT CHAPTER NUMBER: {chapter_number}
+
+---
+
+Review the chapter and update the thread list. Return ONLY valid JSON — no explanation, no commentary, no markdown code blocks.
+
+Rules:
+- For each existing thread: update "progress" if the chapter advanced it, update "status" to "progressing" if it developed, "resolved" if it was closed, or leave "open" if untouched.
+- Set "last_updated" to the current chapter number if you changed anything about that thread.
+- If the chapter introduced a genuinely new unresolved thread, add it with a new unique "id", "status": "open", and "chapter_introduced" set to the current chapter number.
+- Do NOT remove threads. Do NOT invent resolutions that did not happen in the chapter.
+- Do NOT resolve threads unless they are explicitly closed in the chapter text.
+
+Return the full updated JSON object in exactly this format:
+{{
+  "threads": [
+    {{
+      "id": "string",
+      "title": "string",
+      "status": "open | progressing | resolved",
+      "chapter_introduced": number,
+      "last_updated": number,
+      "progress": "string — current state of this thread as of this chapter",
+      "stakes": "string — what happens if resolved one way vs the other"
+    }}
+  ]
+}}
