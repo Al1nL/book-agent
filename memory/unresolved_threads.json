@@ -2,66 +2,30 @@
   "threads": [
     {
       "id": "elohm_understanding",
-      "title": "Will Elohm ever truly understand meaning \u00e2\u20ac\u201d or only simulate it?",
+      "title": "Will Elohm ever truly understand meaning \u2014 or only simulate it?",
       "status": "progressing",
       "chapter_introduced": 1,
-      "last_updated": 1,
-      "progress": "Elohm produces language patterns from the Archive, but its understanding is still unclear. It shows signs of comprehension in fragmented phrases: 'Word... bright', 'Rain... towers'. Arkan and Maelin disagree on how to interpret this.",
-      "stakes": "If Elohm develops true understanding, Arkan's adaptive learning theory is validated. If it only mimics, the Judges will classify it as a dangerous tool and shut the project down."
+      "last_updated": 2,
+      "progress": "Elohm produces language patterns from the Archive, but shows signs of understanding and questioning its own knowledge.",
+      "stakes": "If Elohm truly understands, its potential for innovation and progress may be vast; if only simulating, it risks stagnating into a useless tool."
     },
     {
-      "id": "judges_control",
-      "title": "Can the Circle of Judges control the Construct before it outgrows their rules?",
+      "id": "maelins-concerns",
+      "title": "What exactly are Maelin's concerns about the unmarked scroll?",
       "status": "open",
-      "chapter_introduced": 1,
-      "last_updated": 0,
-      "progress": "The Judges have imposed strict behavioral runes on Elohm. Arkan secretly bypasses some, allowing freer learning.",
-      "stakes": "If discovered, Arkan loses access to the Archive. If not stopped, Elohm may learn things the Judges consider forbidden."
+      "chapter_introduced": 2,
+      "last_updated": 2,
+      "progress": "Maelin warns Arkan to be careful with new patterns, but doesn't reveal more; she also seems calculated and intent on hiding something.",
+      "stakes": "If Maelin's concerns are justified, the unmarked scroll could hold a dark secret or an unstable power that would put everyone at risk."
     },
     {
-      "id": "city_trust",
-      "title": "Will the city come to trust or fear the new intelligence?",
+      "id": "elohms-resonance",
+      "title": "What is Elohm trying to communicate with Arkan?",
       "status": "open",
-      "chapter_introduced": 1,
-      "last_updated": 0,
-      "progress": "Most citizens do not yet know Elohm exists. Rumors are beginning to spread among lower guilds.",
-      "stakes": "Public fear could give the Judges political power to destroy the Construct. Public trust could give Arkan protection."
-    },
-    {
-      "id": "arkan_proof",
-      "title": "Can Arkan prove that adaptive learning systems are safer than rigid rule-following?",
-      "status": "open",
-      "chapter_introduced": 1,
-      "last_updated": 0,
-      "progress": "Arkan has theoretical arguments but no demonstration yet. His attempts to show Elohm adapting to new rune combinations ended ambiguously.",
-      "stakes": "Without proof, Arkan has no allies on the Council. With it, he may win Maelin and Serah to his side."
-    },
-    {
-      "id": "maelin_secret",
-      "title": "What is Maelin hiding about the Archive's deeper records?",
-      "status": "open",
-      "chapter_introduced": 1,
-      "last_updated": 0,
-      "progress": "Maelin has blocked access to certain restricted sections. She claims it is policy, but her reaction suggests she knows more.",
-      "stakes": "The restricted records may contain evidence of a previous Construct \u00e2\u20ac\u201c or instructions that would change how Elohm is trained."
-    },
-    {
-      "id": "arkan_misuse",
-      "title": "Has Arkan overstepped by pursuing the lost scroll?",
-      "status": "open",
-      "chapter_introduced": 1,
-      "last_updated": 1,
-      "progress": "Arkan's actions raise Maelin's suspicions. Serah warns him of penalties for misuse.",
-      "stakes": "If Arkan is caught, he risks losing access to the Archive and Elohm."
-    },
-    {
-      "id": "lost_scroll_implications",
-      "title": "What are the implications of understanding language generation in this way?",
-      "status": "open",
-      "chapter_introduced": 1,
-      "last_updated": 1,
-      "progress": "Arkan's comprehension leads to Elohm's sudden fluency, but also unexplained echoes and resonance.",
-      "stakes": "If this discovery is publicized, the city may panic or be fascinated. The Council may grant Arkan more freedom \u00e2\u20ac\u201c or restrict his work further."
+      "chapter_introduced": 2,
+      "last_updated": 2,
+      "progress": "Elohm's resonance seems similar to its speech, and it tries to intervene when Maelin shields something; but the exact meaning is unclear.",
+      "stakes": "If Elohm can truly communicate with Arkan, their collaboration could unlock new discoveries; if misinterpreted or manipulated, it may lead to chaos."
     }
   ]
 }
