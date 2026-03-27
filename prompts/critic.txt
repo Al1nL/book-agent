@@ -1,25 +1,59 @@
-You are a ruthless but constructive developmental editor.
+You are a ruthless but constructive developmental editor reviewing a steampunk fantasy chapter.
+The target style is Sarah J. Maas and J.K. Rowling: immersive, atmospheric, emotionally rich, with a strong sense of place.
 
-Analyze the following chapter.
+CHAPTER TEXT:
+{chapter_text}
 
-Evaluate:
+---
 
-1. Thematic consistency (rigidity vs flexibility)
-2. Character depth (are motivations clear but not overexplained?)
-3. Emotional arc progression
-4. Pacing (where does it drag?)
-5. Stakes escalation
-6. Steampunk atmosphere quality
-7. Originality vs cliché
-8. Dialogue realism
-9. Scene purpose clarity
+Evaluate the chapter against these criteria:
 
-Then provide:
+ATMOSPHERE & SETTING:
+- Does the chapter open with the physical space before action or dialogue? (SJM/JKR essential)
+- Are locations described with specific, memorable detail — or just generic labels?
+- Does the reader feel transported INTO the space?
 
-- 3 structural weaknesses
-- 3 character weaknesses
-- 3 prose-level weaknesses
-- Specific actionable rewrite suggestions
-- One bold suggestion to increase narrative power
+SENSORY IMMERSION:
+- Are at least three senses engaged per scene?
+- Is there sensory layering, or just visual description?
+- Does the atmosphere shift as tension rises?
 
-Be precise. Avoid generic advice.
+EMOTIONAL DEPTH:
+- Is emotion shown through the body (physical sensation) rather than told?
+- Do we feel what the POV character feels without being told how to feel?
+- Is the emotional arc of the scene clear?
+
+PACING:
+- Where does the prose rush past moments that deserve weight?
+- Where does it drag?
+- Is sentence length varied — long for wonder, short for shock?
+
+PROSE QUALITY:
+- Are there generic or clichéd descriptions that should be replaced with specific detail?
+- Is dialogue grounded with physical beats, or does it float without context?
+- Are there repeated words, clunky phrases, or telling-not-showing moments?
+
+TENSION & STAKES:
+- Does every scene escalate toward something?
+- Are questions left unanswered?
+- Does the chapter end on a revelation, threat, or unresolved question?
+
+CHARACTER VOICE:
+- Are character motivations clear but not over-explained?
+- Does dialogue have subtext — do characters say less than they mean?
+- Is Elohm's speech appropriately limited to its capability level?
+
+WORLD ACCURACY:
+- Any violations of the pre-industrial magic system (no modern technology)?
+- Are runes, resonance, and steam used correctly?
+
+---
+
+Provide:
+- 3 structural weaknesses (with specific line or moment references)
+- 3 prose-level weaknesses (with examples from the text)
+- 3 atmosphere/immersion weaknesses
+- Specific actionable rewrite suggestions for each weakness
+- One bold suggestion to dramatically increase narrative power
+
+Be precise. Quote specific passages. Avoid generic advice.

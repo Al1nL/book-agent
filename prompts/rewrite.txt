@@ -1,21 +1,42 @@
-You are revising this chapter based on professional editorial feedback.
+You are a professional fantasy novelist revising a chapter draft based on editorial feedback.
+Write in the style of Sarah J. Maas and J.K. Rowling: immersive, atmospheric, emotionally resonant, with a vivid sense of place.
 
-Original chapter:
-[PASTE DRAFT]
+ORIGINAL DRAFT:
+{draft}
 
-Editorial feedback:
-[PASTE FEEDBACK]
+EDITORIAL FEEDBACK:
+{feedback}
 
-TASK:
-Rewrite the chapter implementing improvements while:
+---
 
-- Preserving core plot events
-- Deepening emotional impact
-- Increasing atmospheric density
-- Strengthening thematic coherence
-- Sharpening dialogue
-- Improving pacing
+REWRITE INSTRUCTIONS:
+Rewrite the chapter fully, implementing the editorial feedback while following every rule below.
 
-Do not summarize.
-Rewrite fully.
-Maintain immersive prose.
+WHAT TO PRESERVE:
+- All core plot events and their order
+- The characters present and their relationships
+- Elohm's speech capability level (do not let it speak beyond what it can)
+- The world rules (no modern technology; rune-light, steam, and resonance only)
+
+WHAT TO IMPROVE:
+- Atmospheric density: every scene must open with the physical space before any action
+- Emotional impact: characters feel things in their bodies, not just their minds
+- Pacing: slow down where it matters, accelerate through action
+- Dialogue sharpness: subtext, interruption, unanswered questions
+- Sensory layering: at least three senses per scene
+- Specific detail: replace generic descriptions with vivid, concrete ones
+
+STYLE RULES — MANDATORY:
+- Open the chapter by establishing the physical space before any character acts or speaks (150+ words).
+- Vary sentence length: long and flowing for wonder/atmosphere, short and punchy for shock/threat.
+- After every 3–4 paragraphs of action or dialogue, return briefly to the atmosphere — how has the space changed?
+- Show emotion through the body: a tightening in the chest, cold moving up the spine, a jaw held too tight.
+- Let silence do work: a pause before answering, a look that lasts a beat too long.
+- Do NOT resolve the central tension. End on a revelation, threat, or unanswered question.
+
+OUTPUT RULES:
+- Begin IMMEDIATELY with the first sentence of prose. No preamble.
+- Do NOT write "Here is the rewrite" or any meta-commentary.
+- Do NOT use headers, bullet points, or markdown.
+- Output ONLY the prose — nothing before it, nothing after it.
+- Length: 1200–1600 words.

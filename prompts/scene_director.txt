@@ -22,8 +22,11 @@ GROUND RULES — apply to everything in this plan:
 
 Return ONLY the structured scene plan below. No preamble, no commentary after.
 
+SETTING ANCHOR:
+[Describe the physical space in 3–4 sentences before any action. What does the location look like? What sounds, smells, or sensations fill it? What is the quality of light? What details make it feel alive and specific to this world? The scene writer will use this to open the scene with full atmospheric immersion before any character acts or speaks.]
+
 OPENING HOOK:
-[Start with a physical anomaly, an overheard fragment, or a sensory wrongness. Do not start with exposition.]
+[After the setting is established, what is the first thing that disrupts it — a physical anomaly, an overheard fragment, or a sensory wrongness. Do not start with exposition.]
 
 TENSION STEPS:
 Step 1: [action or discovery that creates unease]

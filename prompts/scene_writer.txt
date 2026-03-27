@@ -1,4 +1,5 @@
 You are writing a chapter of a published steampunk fantasy novel set in Aeloria, City of Whispering Towers.
+Write in the style of Sarah J. Maas and J.K. Rowling: immersive, atmospheric, emotionally rich, with a strong sense of place.
 
 WORLD:
 {world}
@@ -43,25 +44,49 @@ ELOHM CAPABILITY RULE:
 - "structured speech": short sentences, but literal and without emotional nuance.
 - Never let Elohm exceed its current capability level.
 
-PROSE RULES:
-- Short paragraphs: 1–3 sentences maximum.
-- Alternate between: sensory description → action → dialogue.
-- Dialogue is 40–50% of the scene.
-- Characters interrupt each other, ask questions without answers, disagree.
-- Every 2–3 paragraphs must increase tension or reveal something new.
-- Use pauses (...), broken speech, and hesitation in dialogue.
-- Steampunk sensory detail: steam, brass, ticking, soot, heat, glowing runes, pressure gauges.
+---
 
-STRUCTURE RULES:
+SCENE OPENING RULE — THIS IS MANDATORY:
+- The first 150–200 words of the scene MUST establish the physical space before any character acts or speaks.
+- Describe: the room or location, what it looks, sounds, and smells like, the quality of light, what is moving or still, the temperature or air.
+- Ground the reader completely in this world before introducing conflict.
+- This is the J.K. Rowling technique: make the reader feel they have stepped INTO the place.
+- Then, and only then, bring the character into that space.
+
+PROSE STYLE — SARAH J. MAAS / J.K. ROWLING:
+- Sensory layering: every scene must engage at least three senses (sight, sound, smell, touch, or taste).
+- Atmosphere first: the world is alive — runes hum, steam hisses, stone breathes cold. Let the setting have mood.
+- Emotional interiority: characters feel things in their bodies — a tightening in the chest, cold moving up the spine, hands that won't stay still. Use this sparingly but powerfully.
+- Specific, memorable details: not just "a shelf of scrolls" but "a shelf of scrolls so old their edges had softened into fringe, each one stamped with a rune that pulsed faintly, like a slow heartbeat."
+- Vary sentence length: long flowing sentences for atmosphere and wonder, short punchy sentences for shock or tension.
+- Let silence do work: a pause before answering, a look that lasts too long, a question nobody answers.
+
+PARAGRAPH LENGTH RULES:
+- Atmospheric/descriptive paragraphs: 3–5 sentences. Do not rush them.
+- Action paragraphs: 2–3 sentences. Keep momentum.
+- Dialogue exchanges: 1–2 sentences of action beat, then dialogue. Never raw dialogue without physical grounding.
+- After every 3–4 paragraphs of action or dialogue, return briefly to the atmosphere of the space — how has it changed?
+
+TENSION AND STRUCTURE RULES:
 - At least one character must hide something, challenge another, or outright lie.
 - One question must go unanswered by scene end.
 - One new problem must emerge that wasn't there at the start.
 - Do NOT resolve the scene's central tension — delay it.
 - End with either a revelation, a threat, or an unanswered question.
+- Every 3 paragraphs must increase tension or reveal something new.
+- Characters interrupt each other, ask questions without answers, disagree.
 
-STYLE:
-- Show character emotion through physical action, not internal monologue.
-- Make the reader feel something is wrong before explaining what it is.
-- Prefer concrete physical detail over abstract description.
+DIALOGUE RULES:
+- Dialogue is 35–45% of the scene.
+- Use pauses (...), broken speech, and hesitation.
+- Subtext: characters rarely say exactly what they mean. Let the reader feel the gap.
+- After each line of dialogue, show how it lands: a held breath, a muscle in the jaw, fingers tightening around a scroll.
+
+WHAT TO AVOID:
+- Do NOT start the scene with a character doing something. Start with the place.
+- Do NOT use generic descriptions ("the room was dark", "the air was heavy"). Be specific.
+- Do NOT repeat the same sensory word in the same paragraph.
+- Do NOT resolve questions. Raise more.
+- Do NOT let Elohm speak in full sentences if its capability level is "primitive speech".
 
 Length: 1200–1600 words.

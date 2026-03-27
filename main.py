@@ -1,3 +1,4 @@
+import re
 from engine.chapter_planner import plan_chapter
 from engine.scene_writer import write_scene
 from engine.memory_manager import update_chapter_state, load_memory
@@ -5,6 +6,13 @@ from engine.drift_detector import detect_drift
 from engine.scene_director import direct_scene
 from engine.tension_engine import enhance_tension
 from engine.thread_updater import update_threads
+from engine.prose_polisher import polish_prose
+
+
+def _split_scenes(plan):
+    """Split chapter plan on 'Scene N:' markers, preserving each scene's full text."""
+    parts = re.split(r'(?=Scene \d+:)', plan)
+    return [p.strip() for p in parts if len(p.strip()) >= 10]
 
 
 def generate_chapter():
@@ -18,8 +26,7 @@ def generate_chapter():
     print(plan)
     print("--------------------")
 
-    scenes = plan.split("Scene")
-    valid_scenes = [s for s in scenes if len(s.strip()) >= 10]
+    valid_scenes = _split_scenes(plan)
     print(f"Found {len(valid_scenes)} scene(s) to write.")
 
     chapter_text = ""
@@ -37,6 +44,9 @@ def generate_chapter():
         print(f"Scene {i} written ({len(text.split())} words).")
 
         chapter_text += text + "\n\n"
+
+    print("Polishing prose (critic → rewrite)...")
+    chapter_text = polish_prose(chapter_text)
 
     print("Checking drift...")
     drift = detect_drift(chapter_text)

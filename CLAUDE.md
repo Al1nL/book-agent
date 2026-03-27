@@ -16,6 +16,7 @@ main.py
         │     ├── direct_scene()        → engine/scene_director.py
         │     ├── enhance_tension()     → engine/tension_engine.py
         │     └── write_scene()         → engine/scene_writer.py
+        ├── polish_prose()              → engine/prose_polisher.py  (critic → rewrite pass)
         ├── detect_drift()              → engine/drift_detector.py
         └── update_chapter_state()      → engine/memory_manager.py
 ```
@@ -34,6 +35,7 @@ All LLM calls go through `engine/llm_client.py` → `POST http://localhost:11434
 | `scene_writer.py` | `write_scene(plan)` | Generates 1200–1600 word prose from scene plan |
 | `tension_engine.py` | `enhance_tension(plan)` | Adds uncertainty, hidden info, conflict to scene plan |
 | `drift_detector.py` | `detect_drift(text)` | Checks chapter for character/plot/theme consistency |
+| `prose_polisher.py` | `polish_prose(text)` | Runs critic pass then full rewrite for style/atmosphere |
 
 ### Prompts (`prompts/`)
 
@@ -41,10 +43,10 @@ Each engine module loads a `.txt` prompt template. Key ones:
 - `master_planner.txt` — novel blueprint
 - `chapter_planner.txt` — chapter-level planning
 - `scene_director.txt` — dramatic structure
-- `scene_writer.txt` — prose generation rules (**currently empty — needs content**)
+- `scene_writer.txt` — prose generation rules (SJM/JKR style, mandatory atmospheric opening)
 - `tension_engine.txt` — tension enhancement rules
 - `drift_analysis.txt` — continuity checking
-- `critic.txt` / `rewrite.txt` — critic→rewrite pipeline (**not yet wired into main.py**)
+- `critic.txt` / `rewrite.txt` — critic→rewrite polish pipeline (wired into main.py via `prose_polisher.py`)
 - `continuity_check.txt` — additional continuity rules
 
 ### Memory (`memory/` — JSON files)
@@ -157,8 +159,10 @@ Active threads:
 
 ## Known Gaps / Improvement Areas
 
-1. **Critic → rewrite pipeline not wired up** — `prompts/critic.txt` and `prompts/rewrite.txt` exist but are not called in `main.py`. Integrating them would add a polish pass after initial scene generation.
-2. **`requirements.txt` is empty** — should list `requests` at minimum.
-3. **Scenes are split by naive string split on "Scene"** — brittle; a structured scene object from the planner would be more robust.
-4. **No retry/error handling on LLM calls** — if Ollama is down or returns an error, the pipeline fails silently.
-5. **Thread updater JSON parsing** — if the LLM produces malformed JSON, `thread_updater.py` will crash; needs a fallback.
+All previously known gaps have been resolved:
+
+1. ~~Critic → rewrite pipeline not wired up~~ — Fixed: `engine/prose_polisher.py` + wired into `main.py`.
+2. ~~`requirements.txt` is empty~~ — Fixed: lists `requests`.
+3. ~~Scenes split by naive string split~~ — Fixed: `main.py` uses `re.split(r'(?=Scene \d+:)', plan)`.
+4. ~~No retry/error handling on LLM calls~~ — Fixed: `llm_client.py` retries up to 3× with 5s delay, raises clear errors.
+5. ~~Thread updater JSON parsing crash~~ — Already had fallback in `thread_updater.py`.
